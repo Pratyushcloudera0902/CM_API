@@ -29,6 +29,3 @@ api_response2 = cluster_api_instance.list_hosts('Cluster 1', view='SUMMARY')
 # print(api_response2)
 for host in api_response2.items:
     print(host.host_id,"-",host.host_url)
-## -- Output --
-# Cluster 1 - 6.0.0
-# Cluster 2 - 5.14.0
